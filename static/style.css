@@ -1,0 +1,45 @@
+:root {
+  --black: #19192c;
+}
+
+body {
+  background-color: var(--black);
+  height: 100vh;
+}
+
+.btn {
+  padding: 0.75rem 0.75rem;
+  font-size: 1.1rem;
+  border-radius: 10em;
+}
+
+.content-wrapper {
+  background-color: #23243b;
+  color: white;
+
+  text-align: center;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+
+  max-width: 600px;
+}
+
+input {
+  border-radius: 5em !important;
+  padding-left: 1.75em !important;
+}
+
+.form-control,
+.form-control:focus {
+  background-color: transparent;
+  padding: 0.75rem 0.75rem;
+  color: white;
+}
